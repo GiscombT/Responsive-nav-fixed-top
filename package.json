@@ -2,7 +2,6 @@
   "name": "lapis_evolution",
   "version": "1.0.0",
   "description": "www lapis evolution",
-  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
