@@ -78,7 +78,8 @@ row:after {
  	margin: 0;
  	padding: 0;*/
  	width: 100%;
- 	height: 100%;
+ 	/*height: 100%;*/
+ 	height: 91vh;
  	position: relative;
  	margin-top: 9vh;
  }
@@ -96,12 +97,23 @@ row:after {
  	text-transform: uppercase;
  	letter-spacing: 0.2vw;
  } */
-.logo{
+
+/* pozycja logo w gornym lewym rogu bannerka
+   .logo{
 	position: absolute;
  	top: -25px;
  	left: -50px;
  	width: 220px;
  	max-width: 80vw;
+} */
+.logo{
+	position: absolute;
+	/*margin: 0 auto;*/
+ 	top: -30px;
+ 	left: 25vw;
+ 	width: 50%;
+ 	/*height: 50vh;*/
+ 	/*max-width: 80vw;*/
 }
 .about {
 	margin-top: 11vh;
@@ -118,4 +130,49 @@ row:after {
 	width: 100%;
 	margin-left: 30px;
 	margin-top: 90px;
+}
+.contact {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("img/contact_bg.jpg");
+	/*background-repeat: no-repeat;*/
+	color: #fff;
+}
+.contact h3 {
+	margin-top: 25vh;
+	margin-left: 10vw;
+}
+.contact p {
+	margin-left: 10vw;
+	margin-top: 20px;
+}
+.contact i {
+	margin-top: 30px;
+	color: #fff;
+}
+.contact i:hover {
+	color: lightgray;
+	cursor: pointer;
+}
+.form-group {
+	width: 500px;
+	margin-left: 10vw;
+}
+.submit {
+	margin-left: 10vw;
+}
+.form-group label {
+	font-size: 14px;
+	font-weight: normal;
+}
+.form-control {
+	opacity: 0.4;
+}
+.form-control textarea {
+	color: black;
+}
+.submit {
+	background-color: #427e96;
+	color: #fff;
+	border-color: #427e96;
 }
