@@ -36,7 +36,7 @@ nav .lapis-name {
  	font-family: 'Open Sans', sans-serif;
  	font-size: 98%;
  	/*color: #292c88;*/
- 	color: black;
+ 	color: #283196;
  	position: absolute;
  	left: 30px;
  	letter-spacing: 3px;
@@ -62,7 +62,7 @@ row:after {
  header>nav>div>ul>li>a {
  	line-height: 10vh;
  	padding: 3vw 3vh;
- 	color: black;
+ 	color: #283196;
  	text-decoration: none;
  	text-transform: uppercase;
  	font-family: 'Open Sans', sans-serif;
@@ -70,19 +70,27 @@ row:after {
  }
  header>nav>div>ul>li>a:hover {
  	text-decoration: none;
- 	color: #0B750E;
+ 	color: #fc9b0f;
  	cursor: pointer;
  }
- .hero img {
- 	/*display: block;
+ .hero{
+ 	position: relative;
+ }
+.banner {
+	background-image: linear-gradient(#6d82c4 0%, #f9be6b 60%, #f7ea74 100%);
+	height: 100vh;
+}
+ /* .hero .photo-banner {
+ 	display: block;
  	margin: 0;
- 	padding: 0;*/
+ 	padding: 0;
  	width: 100%;
- 	/*height: 100%;*/
  	height: 91vh;
  	position: relative;
  	margin-top: 9vh;
- }
+ 
+ } */
+
  /* .slogan {
  	position: absolute;
  	top: 150px;
@@ -106,21 +114,38 @@ row:after {
  	width: 220px;
  	max-width: 80vw;
 } */
-.logo{
+
+.logo {
 	position: absolute;
-	/*margin: 0 auto;*/
- 	top: -30px;
- 	left: 25vw;
- 	width: 50%;
- 	/*height: 50vh;*/
- 	/*max-width: 80vw;*/
 }
+.photo-logo {
+	width: 400px;
+	margin-left: -5vw;
+	margin-top: -130vh;
+}
+.services {
+ 	height: 100vh;
+ 	color: black;
+ 	/*opacity: 0.5;*/
+ }
+ .services h1 {
+ 	margin-top: 17vh;
+ }
+ .testimonials {
+ 	height: 100vh;
+ 	background-image: linear-gradient(#f9be6b 0%, #f7ea74 60%, #FAF207 100%);
+ 	color: #fff;
+ 	/*opacity: 0.5;*/
+ }
+ .testimonials h1 {
+ 	margin-top: 17vh;
+ }
 .about {
-	margin-top: 11vh;
+	/*margin-top: 11vh;*/
 	height: 100vh
 }
 .about-text h2 {
-	margin-top: 70px;
+	margin-top: 17vh;
 }
 .about-p {
 	margin-top: 20px;
@@ -134,7 +159,11 @@ row:after {
 .contact {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("img/contact_bg.jpg");
+	/*background-image: url("img/contact_bg.jpg");*/
+	/*background-color: #a7abc9; */
+	background-image: linear-gradient(#f9be6b 0%, #6d82c4 100%);
+	/*dodatkowy background z gradientem pastelowym - blue-orange-yellow)
+	/*background-image: linear-gradient(#6d82c4 0%, #f9be6b 60%, #f7ea74 80%, #FAF207 100%);*/
 	/*background-repeat: no-repeat;*/
 	color: #fff;
 }
@@ -147,8 +176,10 @@ row:after {
 	margin-top: 20px;
 }
 .contact i {
+	margin-right: 20px;
 	margin-top: 30px;
 	color: #fff;
+
 }
 .contact i:hover {
 	color: lightgray;
@@ -172,7 +203,9 @@ row:after {
 	color: black;
 }
 .submit {
-	background-color: #427e96;
+	/*background-color: #427e96;*/
 	color: #fff;
-	border-color: #427e96;
+	/*border-color: #427e96;*/
+	background-color: #c8a98a;
+	border-color: #c8a98a;
 }
