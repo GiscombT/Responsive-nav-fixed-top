@@ -16,79 +16,44 @@ body {
 	/*max-width: 1200px;*/
 	margin: 0 auto;
 }
-header {
+.header {
 	background-color: #eff0e9;
 	height: 9vh;
+	font-family: 'Open Sans', sans-serif;
 }
-.sticky
-{
-    width:100%;
-    position:fixed;
-    top:0;
-    z-index:100;
-   /* opacity: 0.8;*/
-} 
-nav .container {
-	width: 100%;
-	/*max-width: 1200px;*/
-	margin: 0 auto;
-	/*position: relative;*/
+.navbar {
+	background-color: #eff0e9;
 }
-nav .lapis-name {
- 	margin: 3vh 0;
- 	font-family: 'Open Sans', sans-serif;
- 	font-size: 98%;
- 	/*color: #292c88;*/
- 	color: #283196;
- 	position: absolute;
- 	left: 30px;
- 	letter-spacing: 3px;
- }
-.nav-prawa {
-	float: right;
+.navbar-brand {
+	color: #283196;
+	font-size: 98%;
+	letter-spacing: 3px;
 }
-header>nav>div>ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	float: left;
+header>nav>div>ul>li>a {
+	margin-right: 10px;
+	color: #283196;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 95%;
 }
-row:before,
-row:after {
-	content:" ";
-	display: table;
-	clear: both;
- } 
- header>nav>div>ul>li {
- 	display: inline-block;
- }
- header>nav>div>ul>li>a {
- 	line-height: 10vh;
- 	padding: 3vw 3vh;
- 	color: #283196;
- 	text-decoration: none;
- 	text-transform: uppercase;
- 	font-family: 'Open Sans', sans-serif;
- 	font-size: 95%;
- }
  header>nav>div>ul>li>a:hover {
  	text-decoration: none;
  	color: #fc9b0f;
- 	cursor: pointer;
  }
 .hero{
  	position: relative;
  }
 .banner {
 	/*background-image: linear-gradient(#6d82c4 0%, #f9be6b 60%, #f7ea74 100%);*/
-	background-image: linear-gradient(#6d82c4 0%, #f9be6b 60%, #FAE2C0 100%);
-	height: 100vh;
+	/*background-image: linear-gradient(#6d82c4 0%, #f9be6b 60%, #FAE2C0 100%);*/
+	background-image: linear-gradient(#838bb5 0%, #f9be6b 60%, #FAE2C0 100%);
+	height: 91vh;
 }
 .jumbotron-text {
 	position: absolute;
 	margin: 0 auto;
 	/*display: block;*/
-	top: 150px;
+	top: 95px;
  	/*left: 28vw;*/
  	color: #1e2572;
  	/*max-width: 80vw;*/
@@ -236,7 +201,7 @@ row:after {
 	margin-top: 20px;
 }
 .contact i {
-	margin-right: 20px;
+	margin-right: 15px;
 	margin-top: 30px;
 	color: #fff;
 
