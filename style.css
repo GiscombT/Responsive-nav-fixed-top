@@ -106,55 +106,6 @@ body {
 	font-size: 2.3em;
 	letter-spacing: 2px
 }
-/* .manifest {
-	font-size: 1.2em;
-	margin-top: 40px;
-}
-.osho {
- 	margin-top: 30px;
- 	font-size: 1.7em;
- 	border-left: none;
- 	margin-right: -20px;
- 	font-style: italic;
-}
-.blockquote-footer {
-	color: #fb940c;
-	font-style: normal;
-}
-pozycja logo w gornym lewym rogu bannerka
-   .logo{
-	position: absolute;
- 	top: -25px;
- 	left: -50px;
- 	width: 220px;
- 	max-width: 80vw;
-}
-
-.logo {
-	position: absolute;
-}
-.photo-logo {
-	width: 400px;
-	margin-left: -6vw;
-	margin-top: -135vh;
-}
-.workshopButton {
-	color: #1e2572;
-	border-radius: none;
-	font-size: 150%;
-	padding: 14px 18px;
-	background-color: #fc9b0f;
-	transition: 1.5s;
-	box-shadow: 5px 5px 30px gray;
-}
-.workshopButton:hover {
-	color: #fc9b0f;
-	background-color: #1e2572;
-}
-.workshopButton-jumbotron {
-	position: absolute;
-	margin-top: -280px;
-} */
 .contact {
 	height: 92vh;
 	/* margin-top: 50px;
@@ -196,12 +147,16 @@ pozycja logo w gornym lewym rogu bannerka
 	}
 	.navbar-brand {
 		letter-spacing: 1px;
+		font-size: 90%;
 	}
 @media (max-width: 770px) {
+	.navbar {
+		width: 100%;
+	}
 	.navbar-nav {
 		margin: 0;
 		overflow: hidden;
-		float: right;
+		/*float: right;*/
 	}
 	.navbar-right a {
 		height: 20px;
