@@ -153,17 +153,20 @@ body {
 	.navbar {
 		width: 100%;
 	}
+	.header {
+		width: 100%;
+	}
 	.navbar-nav {
 		margin: 0;
-		overflow: hidden;
+		/*overflow: hidden;*/
 		/*float: right;*/
 	}
-	.navbar-right a {
-		height: 20px;
+	.navbar-nav a {
+		height: 30px;
 		padding: 1px;
 		margin: 3px;
-		margin-bottom: 7px;
-		text-align: right;
+		margin-bottom: 10px;
+		text-align: left;
 	}
 	/* .navbar-fixed-top {
 		opacity: 0.5;
