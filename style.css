@@ -13,7 +13,6 @@ body {
 }
 .container {
 	width: 100%;
-	/*max-width: 1200px;*/
 	margin: 0 auto;
 }
 .header {
@@ -79,14 +78,10 @@ body {
 	border-radius: 1px;
 	background-color: #283196;
 }
-
 .hero{
  	position: relative;
  }
 .banner {
-	/*background-image: linear-gradient(#6d82c4 0%, #f9be6b 60%, #f7ea74 100%);*/
-	/*background-image: linear-gradient(#6d82c4 0%, #f9be6b 60%, #FAE2C0 100%);*/
-	/*background-image: linear-gradient(#838bb5 0%, #f9be6b 60%, #FAE2C0 100%);*/
 	height: 91vh;
 	width: 100vw;
 	background-color: #BAD3DB;
@@ -94,13 +89,8 @@ body {
 .jumbotron-text {
 	position: absolute;
 	margin: 0 auto;
-	/*display: block;*/
 	top: 210px;
- 	/*left: 28vw;*/
  	color: #1e2572;
- 	/*max-width: 80vw;*/
-	/*font-size: 200%;*/
- 	/*border-left: none;*/
 }
 .jumbotron-text h1 {
 	font-size: 2.3em;
@@ -108,15 +98,12 @@ body {
 }
 .contact {
 	height: 92vh;
-	/* margin-top: 50px;
-	margin-bottom: 50px; */
 }
 .form {
 	margin-top: 50px;
 }
 .form-group {
 	width: 500px;
-	margin-left: 10vw;
 }
 .submit {
 	margin-left: 10vw;
@@ -167,6 +154,12 @@ body {
 		margin: 3px;
 		margin-bottom: 10px;
 		text-align: left;
+	}
+	.banner {
+		width: 100%;
+	}
+	.form-group {
+		width: 250px;
 	}
 	/* .navbar-fixed-top {
 		opacity: 0.5;
