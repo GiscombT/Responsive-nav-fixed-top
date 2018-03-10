@@ -80,12 +80,10 @@ body {
 }
 .hero{
  	position: relative;
- }
-.banner {
-	height: 91vh;
+ 	height: 91vh;
 	width: 100vw;
 	background-color: #BAD3DB;
-}
+ }
 .jumbotron-text {
 	position: absolute;
 	margin: 0 auto;
